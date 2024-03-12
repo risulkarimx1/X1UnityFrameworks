@@ -1,12 +1,12 @@
 using UnityEngine;
 using X1Frameworks.UiFramework;
-using X1Frameworks.UiFramework.TestUser;
+using X1Frameworks.UiFramework.Example;
 using Zenject;
 
 namespace Project.Installer
 {
-    [CreateAssetMenu(fileName = "BooSceneInstaller", menuName = "Installers/BooSceneInstaller")]
-    public class BooSceneInstaller : ScriptableObjectInstaller<BooSceneInstaller>
+    [CreateAssetMenu(fileName = "BootSceneInstaller", menuName = "Installers/BooSceneInstaller")]
+    public class BootSceneInstaller : ScriptableObjectInstaller<BootSceneInstaller>
     {
         [SerializeField] private TestUi _testUi;
         [SerializeField] private UiSettings uiSettings;

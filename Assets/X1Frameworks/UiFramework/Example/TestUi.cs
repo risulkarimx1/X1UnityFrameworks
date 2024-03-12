@@ -1,8 +1,7 @@
-using System;
 using UnityEngine;
 using Zenject;
 
-namespace X1Frameworks.UiFramework.TestUser
+namespace X1Frameworks.UiFramework.Example
 {
     public class TestUi : MonoBehaviour
     {

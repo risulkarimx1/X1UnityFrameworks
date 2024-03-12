@@ -6,10 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ae283c9d-cac9-4fa0-abce-2980f1e6fb02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestUi.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/UISettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/UISettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/UISettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/UISettings.asset.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +32,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/LogFramework/Debug.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiScreenBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@809d23edae/Runtime/External/Addressables/AddressablesAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -120,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710222556332</updated>
       <workItem from="1710222558125" duration="16000" />
-      <workItem from="1710222586129" duration="17088000" />
+      <workItem from="1710222586129" duration="18294000" />
     </task>
     <servers />
   </component>
@@ -162,14 +171,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs</url>
+          <url>file://$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs</url>
           <line>13</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" initialLine="13" containingFunctionPresentation="Method 'InstallBindings'">
             <startOffsets>
-              <option value="483" />
+              <option value="484" />
             </startOffsets>
             <endOffsets>
-              <option value="484" />
+              <option value="485" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

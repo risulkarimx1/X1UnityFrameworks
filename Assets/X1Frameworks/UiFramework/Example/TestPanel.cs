@@ -2,7 +2,7 @@ using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace X1Frameworks.UiFramework.TestUser
+namespace X1Frameworks.UiFramework.Example
 {
     public class TestPanelProps : IScreenProperties
     {

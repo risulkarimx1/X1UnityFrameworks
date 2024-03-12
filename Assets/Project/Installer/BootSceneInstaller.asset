@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aeb52f5c670c341ebbd0164f6daeda47, type: 3}
-  m_Name: BooSceneInstaller
+  m_Name: BootSceneInstaller
   m_EditorClassIdentifier: 
-  _testUi: {fileID: 0}
+  _testUi: {fileID: 6799878479892730526, guid: 498cba731bd6c46fab316a49154e6a4b, type: 3}
   uiSettings: {fileID: 11400000, guid: 554c9eea8a2b042fd83217d57d00b48a, type: 2}
