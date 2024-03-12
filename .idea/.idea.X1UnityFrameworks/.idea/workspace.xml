@@ -5,737 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae283c9d-cac9-4fa0-abce-2980f1e6fb02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Reflection.Editor.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/link.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/Bootstrap License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/ConfigData.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/OdinPathLookup.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Assets/Editor/SdfIconAtlas.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/GeneralDrawerConfig.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/InspectorConfig.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables.data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/AddressablesInspectors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/AddressablesInspectors.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Sirenix.OdinInspector.Modules.Unity.Addressables.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Sirenix.OdinInspector.Modules.Unity.Addressables.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/AssetLabelReferenceValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/AssetLabelReferenceValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/AssetReferenceValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/AssetReferenceValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/CheckDuplicateBundleDependenciesValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/CheckDuplicateBundleDependenciesValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/CheckResourcesToAddressableDuplicateDependenciesValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/CheckResourcesToAddressableDuplicateDependenciesValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/DisallowAddressableSubAssetFieldAttributeValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/DisallowAddressableSubAssetFieldAttributeValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/MissingAddressableGroupReferenceValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/Validators/MissingAddressableGroupReferenceValidator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/manifest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Addressables/manifest.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Entities.data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Localization.data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Modules/Unity.Mathematics.data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Invalid.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Invalid.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Pin.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Pin.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Result.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Pin/Result.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/ErrorPulse.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/ErrorPulse.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/ErrorPulse.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/ErrorPulse.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/Hidden.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Animations/UI/Trigger/Hidden.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Dark.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/BG_Light.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/DemoSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/DemoSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/console-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/console-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/options-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/options-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/profiler-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Dark/profiler-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/console-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/console-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/options-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/options-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/profiler-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Icons/Light/profiler-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Logo_DarkBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Logo_DarkBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Logo_LightBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/Logo_LightBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/WelcomeLogo_DarkBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/WelcomeLogo_DarkBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/WelcomeLogo_LightBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Editor/WelcomeLogo_LightBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/PlaymakerIntegration.unitypackage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/README.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportPopover.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportPopover.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportSheet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/BugReportSheet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DebugPanel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DebugPanel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DockConsole.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/DockConsole.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ActionOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ActionOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/BoolOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/BoolOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/EnumOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/EnumOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/NumberOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/NumberOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ReadOnlyOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/ReadOnlyOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/StringOption.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Options/StringOption.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinEntry.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinEntry.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinnedUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/PinnedUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/BugReporter.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/BugReporter.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Console.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Console.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Options.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Options.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Profiler.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/Profiler.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/System.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Tabs/System.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Trigger.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Resources/SRDebugger/UI/Prefabs/Trigger.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scenes/Sample.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scenes/Sample.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/AutoInitialize.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ApiSignup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ApiSignup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ApiSignupWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ApiSignupWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/IntegrityChecking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/IntegrityChecking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/Migrations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/Migrations.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ProfilerCameraListenerEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/ProfilerCameraListenerEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.Compiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.Compiler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.Resources.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.Resources.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorPaths.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorPaths.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorStrings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRDebugEditorStrings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRIntegrityCheckWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRIntegrityCheckWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRInternalEditorUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SRInternalEditorUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SROptionsWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SROptionsWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SettingsEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SettingsEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SettingsWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/SettingsWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/StompyRobot.SRDebugger.Editor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/WelcomeWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Editor/WelcomeWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/IBugReporterHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/IBugReporterHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/IOptionContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/IOptionContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Api.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Api.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/ApiUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/ApiUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/BugReportApi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/BugReportApi.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/BugReportScreenshotUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/BugReportScreenshotUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/CircularBuffer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/CircularBuffer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/EditorUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/InternalBugReporterHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/InternalBugReporterHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/InternalOptionsRegistry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/InternalOptionsRegistry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/OptionControlFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/OptionControlFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/OptionDefinition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/OptionDefinition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Paths.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Paths.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/SRScriptRecompileHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/SRScriptRecompileHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Service.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Service.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Strings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Strings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Internal/Util.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerCameraListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerCameraListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerLateUpdateListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerLateUpdateListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/ProfilerServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/SRPProfilerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Profiler/SRPProfilerService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SRDebug.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SRDebug.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SRDebuggerInit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SRDebuggerInit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.Attributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.Attributes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.Test.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/SROptions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ConsoleFilterStateService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ConsoleFilterStateService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IBugReportService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IBugReportService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IConsoleFilterState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IConsoleFilterState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IConsoleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IConsoleService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugCameraService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugCameraService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugPanelService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugPanelService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugTriggerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDebugTriggerService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDockConsoleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IDockConsoleService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IOptionsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IOptionsService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IPinEntryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IPinEntryService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IPinnedOptionsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IPinnedOptionsService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IProfilerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/IProfilerService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ISystemInformationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ISystemInformationService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportApiService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportApiService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportPopoverService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/BugReportPopoverService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/ConsoleFilterStateService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/ConsoleFilterStateService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugCameraServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugCameraServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugPanelServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugPanelServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugTriggerImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DebugTriggerImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DockConsoleServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/DockConsoleServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/KeyboardShortcutListenerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/KeyboardShortcutListenerService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.ReflectionOptionContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.ReflectionOptionContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/OptionsServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinEntryServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinEntryServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/PinnedUIServiceImpl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/SRDebugService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/SRDebugService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/StandardConsoleService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/StandardConsoleService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/SystemInformationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/Implementation/SystemInformationService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ServiceSelectors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Services/ServiceSelectors.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Settings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleEntryView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleEntryView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleLogControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ConsoleLogControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/ActionControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/ActionControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/BoolControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/BoolControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/DataBoundControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/DataBoundControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/EnumControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/EnumControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/NumberControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/NumberControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/OptionsControlBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/OptionsControlBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/ReadOnlyControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/ReadOnlyControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/StringControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Data/StringControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/InfoBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/InfoBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/MultiTapButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/MultiTapButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/PinEntryControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/PinEntryControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerFPSLabel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerFPSLabel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerMemoryBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerMemoryBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerMonoBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/Profiler/ProfilerMonoBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerEnableControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerGraphAxisLabel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerGraphAxisLabel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerGraphControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/ProfilerGraphControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/SRTabButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Controls/SRTabButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/DebugPanelRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/DebugPanelRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/DebuggerTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/DebuggerTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/MobileMenuController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/MobileMenuController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/BugReportPopoverRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/BugReportPopoverRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/BugReportSheetController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/BugReportSheetController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/CategoryGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/CategoryGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ConfigureCanvasFromSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ConfigureCanvasFromSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ConsoleTabQuickViewControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ConsoleTabQuickViewControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DebugPanelBackgroundBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DebugPanelBackgroundBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/DockConsoleRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ErrorNotifier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ErrorNotifier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/FloatOverElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/FloatOverElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/HandleManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/HandleManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/IEnableTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/IEnableTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/LoadingSpinnerBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/LoadingSpinnerBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/PinnedUIRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/PinnedUIRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SRTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SRTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SRTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SRTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SafeAreaSizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SafeAreaSizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ScrollRectPatch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ScrollRectPatch.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ScrollSettingsBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/ScrollSettingsBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SetLayerFromSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/SetLayerFromSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/TriggerRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/TriggerRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/VersionTextBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Other/VersionTextBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/BugReportTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/BugReportTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/ConsoleTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/ConsoleTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/InfoTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/InfoTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/OptionsTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/OptionsTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/ProfilerTabController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/UI/Tabs/ProfilerTabController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Version.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/Scripts/Version.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/StompyRobot.SRDebugger.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/FONT LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/FONT LICENSE.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Black.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Bold.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Light.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/Orbitron Medium.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/SourceCodePro-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Fonts/SourceCodePro-Regular.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/AboutTab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/AboutTab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Console.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Console/Item.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Console/Item.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/InfoBlock.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/InfoBlock.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Options.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Options/Category.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/Options/Category.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SR_ModalPopup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SR_ModalPopup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SideBar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SideBar/ConsoleTabButtonContent.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SideBar/ConsoleTabButtonContent.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SideBar/Tab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Prefabs/SideBar/Tab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Alert.PSD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Alert.PSD.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/BG/footer_lodyas.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Circle.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/Filter-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/clipboard-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/clipboard-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/close-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/collapse-32.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/console-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/down-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/feedback-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/heart_monitor-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/info-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-25.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-32.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/menu-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/message-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/open-dropdown-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/outline-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/pin-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/refresh-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/spider-64.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/stompy_white_128.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-32.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Icons/trash2-50.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Logo@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Fill@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/NumberButton_Outline@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Fill@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/Pin/PinDot_Outline@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-2px@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/RoundedCorner-5px@2x.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Sprites/Default/loading@2x.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/Default.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/Default.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultConsoleAltRow.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultConsoleAltRow.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultConsoleSelectedRow.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultConsoleSelectedRow.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultTabActive.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRDebugger/UI/Styles/DefaultTabActive.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/External.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/External/Jetbrains.Annotations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/External/Jetbrains.Annotations.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/External/MiniJSON.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/External/MiniJSON.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Internal.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Internal/ComponentMenuPaths.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Internal/ComponentMenuPaths.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/LICENSE.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Collections.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Collections/SRList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Collections/SRList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRAutoSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRAutoSingleton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRMonoBehaviourEx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Components/SRSingleton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Coroutines.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Coroutines.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/FloatExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/FloatExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/GameObjectExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/GameObjectExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/IListExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/IListExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/NetFxExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/NetFxExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/StringExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/TransformExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Extensions/TransformExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/AssetUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/AssetUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/Hierarchy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/Hierarchy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/MethodReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/MethodReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/PropertyReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/PropertyReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRDebugUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRDebugUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRFileUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRFileUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRInstantiate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRInstantiate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.Functions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.Functions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.Tweening.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRMath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRReflection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Helpers/SRReflection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/Attributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/Attributes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/IAsyncService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/IAsyncService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRDependencyServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRDependencyServiceBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRSceneServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRSceneServiceBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRServiceBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRServiceBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRServiceManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/Service/SRServiceManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ContentFitText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ContentFitText.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyLayoutElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyLayoutElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyPreferredSize.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyPreferredSize.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyPreferredSizes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopyPreferredSizes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopySizeIntoLayoutElement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/CopySizeIntoLayoutElement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/DragHandle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyLayoutElementEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyLayoutElementEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyPreferredSizeEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyPreferredSizeEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyPreferredSizesEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/CopyPreferredSizesEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/LongPressButtonEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/LongPressButtonEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/SRNumberButtonEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/SRNumberButtonEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StompyRobot.SRF.Editor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StyleComponentEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StyleComponentEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StyleSheetEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Editor/StyleSheetEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/FlashGraphic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/FlashGraphic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/InheritColour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/InheritColour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Layout.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Layout/FlowLayoutGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Layout/FlowLayoutGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Layout/VirtualVerticalLayoutGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Layout/VirtualVerticalLayoutGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/LongPressButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/LongPressButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveEnable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveEnable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ResponsiveResize.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRNumberButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRNumberButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRNumberSpinner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRNumberSpinner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRRetinaScaler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRRetinaScaler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRSpinner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRSpinner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRText.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/SRText.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ScrollToBottomBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/ScrollToBottomBehaviour.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleRoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleSheet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/StyleSheet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Unselectable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/Scripts/UI/Unselectable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/StompyRobot.SRF.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SRF/StompyRobot.SRF.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.Attributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.Attributes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.Test.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/SROptions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/SROptions/link.xml.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestUi.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/UISettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/UISettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/UISettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/UISettings.asset.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -747,6 +32,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/LogFramework/Debug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/Example/TestPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiScreenBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@809d23edae/Runtime/External/Addressables/AddressablesAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.21.20/Runtime/ResourceManager/Util/DelegateList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11a7ac3c905b442eaf1dbb6eb4717e00b7a00/64/bf01a8ff/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f2ed285fb6fe446dbb65c7e2f79f8ee941c00/0e/4c09c16d/ICustomAttributeProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -760,9 +54,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "XThreadsFramesViewSplitterKey": "0.5586207",
+    "git-widget-placeholder": "feature/0.0.1/uiframework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -813,10 +109,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34808">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="34808" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -833,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710222556332</updated>
       <workItem from="1710222558125" duration="16000" />
-      <workItem from="1710222586129" duration="4254000" />
+      <workItem from="1710222586129" duration="18294000" />
     </task>
     <servers />
   </component>
@@ -844,5 +140,115 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs" initialLine="11" containingFunctionPresentation="Method 'LoadAndInstantiateAsync'">
+            <startOffsets>
+              <option value="333" />
+            </startOffsets>
+            <endOffsets>
+              <option value="334" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs" initialLine="11" containingFunctionPresentation="Method 'OpenTestPanel'">
+            <startOffsets>
+              <option value="306" />
+            </startOffsets>
+            <endOffsets>
+              <option value="307" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Project/Installer/BootSceneInstaller.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" initialLine="13" containingFunctionPresentation="Method 'InstallBindings'">
+            <startOffsets>
+              <option value="484" />
+            </startOffsets>
+            <endOffsets>
+              <option value="485" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs" initialLine="11" containingFunctionPresentation="Method 'Update'">
+            <startOffsets>
+              <option value="378" />
+            </startOffsets>
+            <endOffsets>
+              <option value="379" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs</url>
+          <line>218</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="220" containingFunctionPresentation="Method 'GetLayerByScreenType'">
+            <startOffsets>
+              <option value="7620" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7701" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs</url>
+          <line>162</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" initialLine="194" containingFunctionPresentation="Method 'OpenScreen'">
+            <startOffsets>
+              <option value="5713" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5714" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs</url>
+          <line>236</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="235" containingFunctionPresentation="Method 'Open'">
+            <startOffsets>
+              <option value="8196" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8197" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="43" containingFunctionPresentation="Method 'Initialize'">
+            <startOffsets>
+              <option value="1405" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1406" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

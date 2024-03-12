@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74faedd3b2ea40d2854db560336762f, type: 3}
+  m_Name: UISettings
+  m_EditorClassIdentifier: 
+  renderMode: 0
+  sortingLayerName: UI
+  orderInLayer: 10000
+  screenMatchMode: 1
+  referenceResolution: {x: 1080, y: 1920}
+  referencePixelsPerUnit: 100
+  matchWidthOrHeight: 0
+  backgroundBlockerColor: {r: 0, g: 0, b: 0, a: 0.75}
+  layers:
+  - Name: MenuPanels
+    LayerType: 0
+    Screens:
+    - Prefab: {fileID: 8386635943057782357, guid: 04e9237c7147d4424a896d16bb7e9413, type: 3}
+      LoadOnDemand: 1
+      DestroyOnClose: 1
+      CloseWithEscape: 0
+      CloseWithBgClick: 0
