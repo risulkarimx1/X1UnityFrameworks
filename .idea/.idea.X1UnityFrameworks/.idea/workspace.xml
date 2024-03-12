@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae283c9d-cac9-4fa0-abce-2980f1e6fb02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/PopupBackgroundBlocker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/PopupBackgroundBlocker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/SceneUiManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X1UnityFrameworks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/Boot.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/Boot.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/GameLog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Installer/BooSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/LogFramework/Debug.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/AddressableLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/TestUser/TestUi.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "XThreadsFramesViewSplitterKey": "0.5586207",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/0.0.1/uiframework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710222556332</updated>
       <workItem from="1710222558125" duration="16000" />
-      <workItem from="1710222586129" duration="15250000" />
+      <workItem from="1710222586129" duration="17088000" />
     </task>
     <servers />
   </component>
@@ -196,39 +189,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs</url>
-          <line>220</line>
+          <line>218</line>
           <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="220" containingFunctionPresentation="Method 'GetLayerByScreenType'">
             <startOffsets>
-              <option value="8028" />
+              <option value="7620" />
             </startOffsets>
             <endOffsets>
-              <option value="8109" />
+              <option value="7701" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs</url>
-          <line>194</line>
+          <line>162</line>
           <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UILayer.cs" initialLine="194" containingFunctionPresentation="Method 'OpenScreen'">
             <startOffsets>
-              <option value="6738" />
+              <option value="5713" />
             </startOffsets>
             <endOffsets>
-              <option value="6739" />
+              <option value="5714" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs</url>
-          <line>235</line>
+          <line>236</line>
           <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="235" containingFunctionPresentation="Method 'Open'">
             <startOffsets>
-              <option value="8577" />
+              <option value="8196" />
             </startOffsets>
             <endOffsets>
-              <option value="8578" />
+              <option value="8197" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
@@ -238,10 +231,10 @@
           <line>43</line>
           <properties documentPath="$PROJECT_DIR$/Assets/X1Frameworks/UiFramework/UiFrame.cs" initialLine="43" containingFunctionPresentation="Method 'Initialize'">
             <startOffsets>
-              <option value="1482" />
+              <option value="1405" />
             </startOffsets>
             <endOffsets>
-              <option value="1483" />
+              <option value="1406" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />

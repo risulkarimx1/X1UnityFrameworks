@@ -5,6 +5,8 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 using Vengadores.UIFramework;
+using X1Frameworks.LogFramework;
+using Debug = X1Frameworks.LogFramework.Debug;
 
 namespace X1Frameworks.UiFramework
 {
@@ -14,21 +16,19 @@ namespace X1Frameworks.UiFramework
     /// </summary>
     public class UIFrame : MonoBehaviour
     {
-        public Canvas MainCanvas => _mainCanvas;
-        public Camera UICamera => MainCanvas.worldCamera;
+        private Canvas MainCanvas { get; set; }
 
-        private Canvas _mainCanvas;
         private GraphicRaycaster _graphicRaycaster;
 
         private UiSettings _uiSettings;
 
-        // Lookup dictionaries
-        private readonly Dictionary<string, UILayer> _layersByName = new Dictionary<string, UILayer>();
-        private readonly Dictionary<Type, UILayer> _layersByScreenType = new Dictionary<Type, UILayer>();
+        
+        private readonly Dictionary<string, UILayer> _layersByName = new();
+        private readonly Dictionary<Type, UILayer> _layersByScreenType = new();
 
-        private const int _maxScreenEvents = (int) OnScreenEvent.MAX;
-        private Dictionary<Type, Action>[] _onSpecificScreenEvent = new Dictionary<Type, Action>[_maxScreenEvents];
-        private Action<UiScreenBase>[] _onScreenEvent = new Action<UiScreenBase>[_maxScreenEvents];
+        private const int MaxScreenEvents = (int) OnScreenEvent.MAX;
+        private readonly Dictionary<Type, Action>[] _onSpecificScreenEvent = new Dictionary<Type, Action>[MaxScreenEvents];
+        private readonly Action<UiScreenBase>[] _onScreenEvent = new Action<UiScreenBase>[MaxScreenEvents];
 
         private int _screenBlockCount;
 
@@ -37,7 +37,7 @@ namespace X1Frameworks.UiFramework
         internal void Construct(UiSettings uiSettings, Canvas canvas)
         {
             _uiSettings = uiSettings;
-            _mainCanvas = canvas;
+            MainCanvas = canvas;
         }
 
         [PublicAPI] public void Initialize(Camera cam = null)
@@ -49,9 +49,7 @@ namespace X1Frameworks.UiFramework
             
             if (cam != null)
             {
-                // For having the same scene view with the game view
                 MainCanvas.worldCamera = cam; 
-                // Assigning a camera to the canvas changes sorting values, we have set them again
                 MainCanvas.sortingOrder = _uiSettings.orderInLayer;
                 MainCanvas.sortingLayerName = _uiSettings.sortingLayerName;
                 MainCanvas.sortingLayerID = SortingLayer.NameToID(_uiSettings.sortingLayerName);
@@ -59,14 +57,12 @@ namespace X1Frameworks.UiFramework
 
             _graphicRaycaster = MainCanvas.GetComponent<GraphicRaycaster>();
             
-            // Create layers, screens will be created by layers
             foreach (var layerInfo in _uiSettings.layers)
             {
                 layerInfo.BackgroundBlockerColor = _uiSettings.backgroundBlockerColor;
                 CreateLayer(layerInfo);
             }
             
-            // Add screens to lookup dict
             foreach (var layer in GetAllLayers())
             {
                 foreach (var screenType in layer.GetAllScreenTypes())
@@ -80,10 +76,8 @@ namespace X1Frameworks.UiFramework
         
         private UILayer CreateLayer(LayerInfo layerInfo)
         {
-            // Create gameObject
             var layerObject = new GameObject(layerInfo.Name);
             
-            // Add UILayer component
             var layer = layerObject.AddComponent<UILayer>();
             
             // Add rect transform and set to full stretched
@@ -155,9 +149,10 @@ namespace X1Frameworks.UiFramework
             }
         }
 #endif
-        [PublicAPI] public UILayer AddLayer(string newLayerName, LayerType newLayerType, string beforeThisLayerName)
+        [PublicAPI] 
+        public UILayer AddLayer(string newLayerName, LayerType newLayerType, string beforeThisLayerName)
         {
-            LayerInfo layerInfo = new LayerInfo
+            var layerInfo = new LayerInfo
             {
                 Name = newLayerName,
                 LayerType = newLayerType,
@@ -175,7 +170,8 @@ namespace X1Frameworks.UiFramework
             return layerCreated;
         }
 
-        [PublicAPI] public void AddScreenInfo(UILayer layer, ScreenInfo screenInfo)
+        [PublicAPI] 
+        public void AddScreenInfo(UILayer layer, ScreenInfo screenInfo)
         {
             if (layer != null)
             {
@@ -184,19 +180,19 @@ namespace X1Frameworks.UiFramework
             }
         }
 
-        [PublicAPI] public void RemoveScreenInfo<T>()
+        [PublicAPI] 
+        public void RemoveScreenInfo<T>()
         {
             RemoveScreenInfo(typeof(T));
         }
         
-        [PublicAPI] public void RemoveScreenInfo(Type screenType)
+        [PublicAPI] 
+        public void RemoveScreenInfo(Type screenType)
         {
             var layer = GetLayerByScreenType(screenType);
             if (layer == null)
             {
-                GameLog.LogError(
-                    "UIFrame", 
-                    "Layer not found for the screen type of " + screenType.Name);
+                Debug.LogError($"Layer not found for the screen type of {screenType.Name}", LogContext.UIFrame);
                 return;
             }
 
@@ -206,7 +202,8 @@ namespace X1Frameworks.UiFramework
             }
         }
         
-        [PublicAPI] public UILayer GetLayerByName(string layerName)
+        [PublicAPI] 
+        public UILayer GetLayerByName(string layerName)
         {
             return _layersByName.TryGetValue(layerName, out var layer) ? layer : null;
         }
@@ -216,38 +213,45 @@ namespace X1Frameworks.UiFramework
             return GetLayerByScreenType(typeof(T));
         }
         
-        [PublicAPI] public UILayer GetLayerByScreenType(Type screenType)
+        [PublicAPI] 
+        public UILayer GetLayerByScreenType(Type screenType)
         {
             return _layersByScreenType.TryGetValue(screenType, out var layer) ? layer : null;
         }
         
-        [PublicAPI] public List<UILayer> GetAllLayers()
+        [PublicAPI] 
+        public List<UILayer> GetAllLayers()
         {
             return _layersByName.Values.ToList();
         }
 
-        [PublicAPI] public T GetScreen<T>() where T : UiScreenBase
+        [PublicAPI] 
+        public T GetScreen<T>() where T : UiScreenBase
         {
             var layer = GetLayerByScreenType<T>();
             return layer != null ? layer.GetScreen<T>() as T : null;
         }
         
-        [PublicAPI] public T Open<T>(IScreenProperties properties = null) where T : UiScreenBase
+        [PublicAPI] 
+        public T Open<T>(IScreenProperties properties = null) where T : UiScreenBase
         {
             return GetLayerByScreenType<T>()?.OpenScreen<T>(properties);
         }
         
-        [PublicAPI] public UiScreenBase Open(Type screenType, IScreenProperties properties = null)
+        [PublicAPI] 
+        public UiScreenBase Open(Type screenType, IScreenProperties properties = null)
         {
             return GetLayerByScreenType(screenType)?.OpenScreen(screenType, properties);
         }
         
-        [PublicAPI] public void Close<T>() where T : UiScreenBase
+        [PublicAPI] 
+        public void Close<T>() where T : UiScreenBase
         {
             GetLayerByScreenType<T>()?.CloseScreen<T>();
         }
         
-        [PublicAPI] public void Close(Type screenType)
+        [PublicAPI] 
+        public void Close(Type screenType)
         {
             var layer = GetLayerByScreenType(screenType);
             if (layer != null)
@@ -256,46 +260,40 @@ namespace X1Frameworks.UiFramework
             }
         }
 
-        [PublicAPI] public bool IsInitialized()
+        [PublicAPI] 
+        public bool IsInitialized()
         {
             return _isInitialized;
         }
         
-        /// <summary>
-        /// A screen is visible when it is opening, opened or closing
-        /// </summary>
-        [PublicAPI]  public bool IsVisible<T>() where T : UiScreenBase
+        
+        [PublicAPI]  
+        public bool IsVisible<T>() where T : UiScreenBase
         {
             var screen = GetScreen<T>();
             return screen != null && screen.GetState() != ScreenState.Closed;
         }
         
-        /// <summary>
-        /// A screen is shown when it has completed opening transition
-        /// </summary>
         [PublicAPI] public bool IsOpen<T>() where T : UiScreenBase
         {
             var screen = GetScreen<T>();
             return screen != null && screen.GetState() == ScreenState.Opened;
         }
 
-        [PublicAPI] public void RequestUIInteractionBlock()
+        [PublicAPI] 
+        public void RequestUIInteractionBlock()
         {
             _screenBlockCount++;
-            if (_graphicRaycaster != null)
-            {
-                _graphicRaycaster.enabled = false;
-            }
+            if (_graphicRaycaster != null) _graphicRaycaster.enabled = false;
         }
 
-        [PublicAPI] public void RequestUIInteractionUnblock()
+        [PublicAPI] 
+        public void RequestUIInteractionUnblock()
         {
             _screenBlockCount--;
-            if (_graphicRaycaster != null && _screenBlockCount <= 0)
-            {
-                _screenBlockCount = 0;
-                _graphicRaycaster.enabled = true;
-            }
+            if (_graphicRaycaster == null || _screenBlockCount > 0) return;
+            _screenBlockCount = 0;
+            _graphicRaycaster.enabled = true;
         }
 
         [PublicAPI] public bool IsInteractable()
@@ -307,10 +305,7 @@ namespace X1Frameworks.UiFramework
         {
             var actionDict = _onSpecificScreenEvent[(int) ev];
             var t = screen.GetType();
-            if (actionDict.ContainsKey(t))
-            {
-                actionDict[t]?.Invoke();
-            }
+            if (actionDict.ContainsKey(t)) actionDict[t]?.Invoke();
             
             _onScreenEvent[(int) ev]?.Invoke(screen);
         }
@@ -332,15 +327,7 @@ namespace X1Frameworks.UiFramework
         {
             var actionDict = _onSpecificScreenEvent[(int) ev];
             var screen = typeof(T);
-            if (!actionDict.ContainsKey(screen))
-            {
-                actionDict[screen] = cb;
-            }
-            else
-
-            {
-                actionDict[screen] += cb;
-            }
+            if (!actionDict.TryAdd(screen, cb)) actionDict[screen] += cb;
         }
         
         [PublicAPI]
@@ -348,10 +335,7 @@ namespace X1Frameworks.UiFramework
         {
             var actionDict = _onSpecificScreenEvent[(int) ev];
             var screen = typeof(T);
-            if (actionDict.ContainsKey(screen))
-            {
-                actionDict[screen] -= cb;
-            }
+            if (actionDict.ContainsKey(screen)) actionDict[screen] -= cb;
         }
     }
 }

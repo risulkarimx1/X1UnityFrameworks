@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
+using X1Frameworks.LogFramework;
 using X1Frameworks.UiFramework;
+using Debug = X1Frameworks.LogFramework.Debug;
 
 namespace Vengadores.UIFramework
 {
@@ -29,14 +31,12 @@ namespace Vengadores.UIFramework
         {
             _uiFrame = parent;
             _layerInfo = layerInfo;
-        
-            // Instantiate screen objects
+            
             foreach (var screenInfo in layerInfo.Screens)
             {
                 AddScreenInfo(screenInfo);
             }
-
-            // Create dark background if layer type is popup
+            
             if (_layerInfo.LayerType == LayerType.Popup)
             {
                 CreateBackgroundBlocker();
@@ -45,41 +45,32 @@ namespace Vengadores.UIFramework
 
         internal void AddScreenInfo(ScreenInfo screenInfo)
         {
-            // Make sure prefab is assigned
             if (screenInfo.Prefab == null)
             {
-                Debug.LogError(
-                    "UIFrame Layer {_layerInfo.Name} has a null reference.");
+                Debug.LogError($"UIFrame Layer {_layerInfo.Name} has a null reference.", LogContext.UIFrame);
                 return;
             }
             
-            // Make sure prefab has a UIScreenBase
             var screen = screenInfo.Prefab.GetComponent<UiScreenBase>();
             if (screen == null)
             {
-                Debug.LogError(
-                    "UIFrame UIScreenBase component not found on {screenInfo.Prefab.name} in layer {_layerInfo.Name}.");
+                Debug.LogError($"{nameof(UiScreenBase)} component not found on {screenInfo.Prefab.name} in layer {_layerInfo.Name}.", LogContext.UIFrame);
                 return;
             }
-
-            // Get type of screenBase implementation
+            
             var screenType = screen.GetType();
-
-            // Make sure it is not already added
+            
             if (_screensByType.ContainsKey(screenType) || _screenInfosByType.ContainsKey(screenType))
             {
-                Debug.LogError(
-                    "UIFrame already added to the layer!");
+                Debug.LogError("Screen is already added to the layer!", LogContext.UIFrame);
                 return;
             }
-
-            // Initial lookup dict entry
+            
             _screensByType.Add(screenType, null);
             _screenInfosByType.Add(screenType, screenInfo);
 
             if (!screenInfo.LoadOnDemand)
             {
-                // Instantiate screen
                 CreateScreen(screenInfo.Prefab);
             }
         }
@@ -92,19 +83,13 @@ namespace Vengadores.UIFramework
                 var screenState = screen.GetState();
                 if (screenState != ScreenState.Closed)
                 {
-                    GameLog.LogError(
-                        "UIFrame", 
-                        "Screen should be in closed state.");
+                    Debug.LogError($"Screen should be in closed state.", LogContext.UIFrame);
                     return false;
                 }
-                else
-                {
-                    // Destroy screen game object
-                    Destroy(screen.gameObject);
-                }
+
+                Destroy(screen.gameObject);
             }
             
-            // Clear lookups
             _screensByType.Remove(screenType);
             _screenInfosByType.Remove(screenType);
             return true;
@@ -118,30 +103,20 @@ namespace Vengadores.UIFramework
 
         private UiScreenBase CreateScreen(Component prefab)
         {
-            // Get type of screenBase implementation
             var screenPrefabComponent = prefab.GetComponent<UiScreenBase>();
             var screenType = screenPrefabComponent.GetType();
             
-            // Instantiate screen
             var screenObject = Instantiate(prefab.gameObject, transform);
             var screen = screenObject.GetComponent<UiScreenBase>();
             
-            // If it is active, disable it
-            if (screenObject.activeSelf)
-            {
-                screenObject.SetActive(false);
-            }
-
-            // Add to lookup dict
+            if (screenObject.activeSelf) screenObject.SetActive(false);
+            
             _screensByType[screenType] = screen;
-
-            // Register close request
+            
             screen.CloseRequest += OnCloseRequestedByScreen;
             
-            // Register to screen events
             screen.OnScreenEvent += _uiFrame.OnScreenEventInternal;
             
-            // Trigger created callback
             _uiFrame.OnScreenEventInternal(OnScreenEvent.Created,screen);
 
             screen.InitScreen();
@@ -151,15 +126,12 @@ namespace Vengadores.UIFramework
         
         private void CreateBackgroundBlocker()
         {
-            // Create game object
             var backgroundBlockerObject = new GameObject("BackgroundBlocker");
             _backgroundBlocker = backgroundBlockerObject.AddComponent<PopupBackgroundBlocker>();
             _backgroundBlocker.Init(transform, _layerInfo.BackgroundBlockerColor);
             
-            // Register to bg click
             _backgroundBlocker.OnBackgroundBlockerClick += OnBackgroundBlockerClick;
             
-            // Disable the game object
             backgroundBlockerObject.SetActive(false);
         }
         
@@ -168,10 +140,8 @@ namespace Vengadores.UIFramework
             var visibleScreens = GetVisibleScreens();
             if (visibleScreens.Count == 0) return;
             
-            // Get the foremost screen by sibling index
             var foremostScreen = visibleScreens.Find(s => s.transform.GetSiblingIndex() == transform.childCount - 1);
-
-            // Get screen info
+            
             var screenInfo = GetScreenInfo(foremostScreen.GetType());
             if (screenInfo.CloseWithBgClick)
             {
@@ -181,8 +151,6 @@ namespace Vengadores.UIFramework
         
         private void OnCloseRequestedByScreen(Type screenType)
         {
-            // It is a shortcut method
-            // In screen implementations, UI_Close call will close itself
             CloseScreen(screenType);
         }
         
@@ -196,9 +164,7 @@ namespace Vengadores.UIFramework
             var screenInfo = GetScreenInfo(screenType);
             if (screenInfo == null)
             {
-                GameLog.LogError(
-                    "UIFrame", 
-                    "Screen info not found: " + screenType);
+                Debug.LogError($"Screen info not found: {screenType}", LogContext.UIFrame);
                 return null;
             }
             
@@ -211,9 +177,7 @@ namespace Vengadores.UIFramework
 
             if (screen.GetState() != ScreenState.Closed)
             {
-                GameLog.LogError(
-                    "UIFrame", 
-                    "Screen is not in 'Closed' state, can not open: " + screenType);
+                Debug.LogError($"Screen is not in 'Closed' state, can not open: {screenType}", LogContext.UIFrame);
                 return screen;
             }
             
@@ -258,17 +222,13 @@ namespace Vengadores.UIFramework
 
             if (screen == null)
             {
-                GameLog.LogError(
-                    "UIFrame", 
-                    "Screen is not instantiated, can not close: " + screenType);
+                Debug.LogError($"Screen is not instantiated, can not close: {screenType}", LogContext.UIFrame);
                 return;
             }
             
             if (screen.GetState() != ScreenState.Opened)
             {
-                GameLog.LogError(
-                    "UIFrame", 
-                    "Screen is not in 'Opened' state, can not close: " + screenType);
+                Debug.LogError($"Screen is not in 'Opened' state, can not close: {screenType}", LogContext.UIFrame);
                 return;
             }
             
@@ -284,7 +244,7 @@ namespace Vengadores.UIFramework
                     // Unblock ui interactions
                     RequestUIInteractionUnblock?.Invoke();
                     
-                    CheckDestroyOnClose(screenType);
+                    TryDestroyOnClose(screenType);
                     
                     // Refresh bg visibility
                     RefreshBackgroundBlocker();
@@ -297,30 +257,23 @@ namespace Vengadores.UIFramework
                     // Unblock ui interactions
                     RequestUIInteractionUnblock?.Invoke();
                     
-                    CheckDestroyOnClose(screenType);
+                    TryDestroyOnClose(screenType);
                 });
             }
         }
 
-        private void CheckDestroyOnClose(Type screenType)
+        private void TryDestroyOnClose(Type screenType)
         {
-            // Get screen info and check destroy on close option
             var screenInfo = GetScreenInfo(screenType);
             if(!screenInfo.DestroyOnClose) return;
-            
-            // Get screen
             var screen = GetScreen(screenType);
-            
-            // Destroy screen game object
             Destroy(screen.gameObject);
-            
-            // Set lookup entry to null
             _screensByType[screenType] = null;
         }
 
-        public ScreenInfo GetScreenInfo(Type screenType)
+        private ScreenInfo GetScreenInfo(Type screenType)
         {
-            return _screenInfosByType.TryGetValue(screenType, out var screenInfo) ? screenInfo : null;
+            return _screenInfosByType.GetValueOrDefault(screenType);
         }
         
         private void ShowBackgroundBlocker()
