@@ -9,6 +9,7 @@ namespace X1Frameworks.UiFramework
     {
         Panel = 0,
         Popup = 1,
+        Overlay,
     }
     [Serializable] 
     public class ScreenInfo
