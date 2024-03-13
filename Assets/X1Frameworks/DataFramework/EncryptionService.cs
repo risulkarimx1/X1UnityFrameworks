@@ -18,12 +18,14 @@ namespace X1Frameworks.DataFramework
         {
             // Implement encryption logic using the key and IV
             // Similar to the EncryptString method shown previously
+            return plainText;
         }
 
         public string DecryptString(string cipherText)
         {
             // Implement decryption logic using the key and IV
             // Similar to the DecryptString method shown previously
+            return cipherText;
         }
     }
 }
