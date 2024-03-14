@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
@@ -32,7 +33,18 @@ namespace X1Frameworks.DataFramework
             _dataHandler = new JsonFileDataHandler(encryptionService);
             
             _typeToDataMatch.Clear();
-            await InitializeDataType<PlayerData>();
+            
+            var baseDataType = typeof(BaseData);
+            var derivedTypes = Assembly.GetAssembly(baseDataType)
+                .GetTypes()
+                .Where(t => t.IsClass && !t.IsAbstract && t.IsSubclassOf(baseDataType));
+            
+            var method = typeof(DataManager).GetMethod(nameof(InitializeDataType), BindingFlags.NonPublic | BindingFlags.Instance);
+            foreach (var type in derivedTypes)
+            {
+                var generic = method.MakeGenericMethod(type);
+                await (UniTask)generic.Invoke(this, null);
+            }
             
             _isInitialized = true;
         }
@@ -43,7 +55,7 @@ namespace X1Frameworks.DataFramework
             return _dataHandler.LoadAsync<T>(fileName, Key);
         }
 
-        private async Task InitializeDataType<T>() where T : BaseData, new()
+        private async UniTask InitializeDataType<T>() where T : BaseData, new()
         {
             var data = await LoadAsync<T>();
             _typeToDataMatch.Add(typeof(T), data);
