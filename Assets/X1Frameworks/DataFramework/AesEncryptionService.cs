@@ -2,12 +2,13 @@ using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using Cysharp.Threading.Tasks;
 
 namespace X1Frameworks.DataFramework
 {
     public class AesEncryptionService : IEncryptionService
     {
-        public string EncryptString(string plainText)
+        public async UniTask<string> EncryptStringAsync(string plainText)
         {
             using var aesAlg = Aes.Create();
             aesAlg.Key = Encoding.UTF8.GetBytes(DataManager.Key);
@@ -20,14 +21,14 @@ namespace X1Frameworks.DataFramework
             {
                 using (var swEncrypt = new StreamWriter(csEncrypt))
                 {
-                    swEncrypt.Write(plainText);
+                    await swEncrypt.WriteAsync(plainText);
                 }
             }
 
             return Convert.ToBase64String(msEncrypt.ToArray());
         }
 
-        public string DecryptString(string cipherText)
+        public async UniTask<string> DecryptString(string cipherText)
         {
             var cipherBytes = Convert.FromBase64String(cipherText);
 
@@ -38,9 +39,10 @@ namespace X1Frameworks.DataFramework
             var decrypted = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
 
             using var msDecrypt = new MemoryStream(cipherBytes);
-            using var csDecrypt = new CryptoStream(msDecrypt, decrypted, CryptoStreamMode.Read);
+            await using var csDecrypt = new CryptoStream(msDecrypt, decrypted, CryptoStreamMode.Read);
             using var srDecrypt = new StreamReader(csDecrypt);
-            return srDecrypt.ReadToEnd();
+            var data = await srDecrypt.ReadToEndAsync();
+            return data;
         }
     }
 }

@@ -1,10 +1,11 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace X1Frameworks.DataFramework
 {
     public interface IEncryptionService
     {
-        string EncryptString(string plainText);
-        string DecryptString(string cipherText);
+        UniTask<string> EncryptStringAsync(string plainText);
+        UniTask<string> DecryptString(string cipherText);
     }
 }

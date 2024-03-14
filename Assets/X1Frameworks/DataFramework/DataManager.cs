@@ -1,5 +1,8 @@
+using System;
+using System.Collections.Generic;
 using System.Reflection;
-using Debug = UnityEngine.Debug;
+using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 
 namespace X1Frameworks.DataFramework
 {
@@ -8,48 +11,66 @@ namespace X1Frameworks.DataFramework
         public static string Key = "1234567890abcdef1234567890abcdef";
         public static string IV = "1234567890abcdef";
 
-        private IEncryptionService encryptionService;
-        private IDataHandler _dataHandler;
+        private  IEncryptionService encryptionService;
+        private  IDataHandler _dataHandler;
+        
+        private bool _isInitialized = false;
 
-        private PlayerData _playerData;
+        private Dictionary<Type, BaseData> _typeToDataMatch = new();
+        private Dictionary<Type, string> _typeToFileNameMatch = new();
+
         public DataManager()
         {
-            encryptionService = new AesEncryptionService();
-            _dataHandler = new JsonFileDataHandler(encryptionService);
-            _playerData = Load<PlayerData>();
-            Debug.Log($"Loaded value: {_playerData.Level}");
+            EnsureInitializedAsync().Forget();
         }
         
-        public void Save<T>(T data) where T : BaseData
+        private async UniTask EnsureInitializedAsync()
         {
-            string fileName = GetIdentifier<T>();
-            _dataHandler.Save(fileName, data);
+            if(_isInitialized) return;
+            
+            encryptionService = new AesEncryptionService();
+            _dataHandler = new JsonFileDataHandler(encryptionService);
+            
+            _typeToDataMatch.Clear();
+            await InitializeDataType<PlayerData>();
+            
+            _isInitialized = true;
         }
 
-        public T Load<T>() where T : BaseData, new()
+        private UniTask<T> LoadAsync<T>() where T : BaseData, new()
         {
-            string fileName = GetIdentifier<T>();
-            return _dataHandler.Load<T>(fileName, Key);
+            var fileName = GetIdentifier<T>();
+            return _dataHandler.LoadAsync<T>(fileName, Key);
+        }
+
+        private async Task InitializeDataType<T>() where T : BaseData, new()
+        {
+            var data = await LoadAsync<T>();
+            _typeToDataMatch.Add(typeof(T), data);
+        }
+
+        public UniTask SaveAsync<T>() where T : BaseData
+        {
+            var data = _typeToDataMatch[typeof(T)];
+            var fileName = GetIdentifier<T>();
+            return _dataHandler.SaveAsync(fileName, data);
         }
         
         private string GetIdentifier<T>() where T : BaseData
         {
-            var id  = typeof(T).GetCustomAttribute<DataIdentifierAttribute>()?.Identifier ?? typeof(T).Name;
-            var _dataIdentifier = $"{id}_v{Key}.json";
+            if (_typeToFileNameMatch.ContainsKey(typeof(T))) 
+                return _typeToFileNameMatch[typeof(T)];
+            
+            var attribute  = typeof(T).GetCustomAttribute<DataIdentifierAttribute>()?.Identifier ?? typeof(T).Name;
+            var dataIdentifier = $"{attribute}_v{Key}.json";
+            _typeToFileNameMatch.Add(typeof(T), dataIdentifier);
 
-            return _dataIdentifier;
+            return _typeToFileNameMatch[typeof(T)];
         }
-
-        public void AddPlayerLevel()
+        
+        public T Get<T>() where T : BaseData
         {
-            Debug.Log($"Before: {_playerData.Level}");
-            _playerData.Level++;
-            Debug.Log($"After: {_playerData.Level}");
-        }
-
-        public void SavePlayerData()
-        {
-            Save(_playerData);
+             return _typeToDataMatch[typeof(T)] as T;
         }
     }
 }

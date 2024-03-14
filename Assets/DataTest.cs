@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 using X1Frameworks.DataFramework;
+using X1Frameworks.LogFramework;
+using Debug = X1Frameworks.LogFramework.Debug;
 
 public class DataTest : MonoBehaviour
 {
@@ -12,11 +14,13 @@ public class DataTest : MonoBehaviour
 
     public void AddLevel()
     {
-        data.AddPlayerLevel();
+        var playerData =  data.Get<PlayerData>();
+        playerData.Level++;
+        Debug.Log(playerData.Level.ToString(), LogContext.DataManager);
     }
 
-    public void SaveLevel()
+    public async void SaveLevel()
     {
-        data.SavePlayerData();
+        await data.SaveAsync<PlayerData>();
     }
 }

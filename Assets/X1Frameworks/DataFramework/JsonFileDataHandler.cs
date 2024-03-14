@@ -1,4 +1,5 @@
 using System.IO;
+using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
 using X1Frameworks.LogFramework;
@@ -33,7 +34,7 @@ namespace X1Frameworks.DataFramework
             }
         }
 
-        public void Save(string fileName, BaseData data)
+        public async UniTask SaveAsync(string fileName, BaseData data)
         {
             var filePath = Path.Combine(_directoryPath, $"{fileName}");
 
@@ -41,46 +42,46 @@ namespace X1Frameworks.DataFramework
             
             var encryptedData = new EncryptedData
             {
-                Data = _encryptionService.EncryptString(serializedData),
+                Data = await _encryptionService.EncryptStringAsync(serializedData),
                 KeyVersion = Key
             };
             
             var encryptedDataAsJson = JsonConvert.SerializeObject(encryptedData, Formatting.Indented);
             
-            File.WriteAllText(filePath,  encryptedDataAsJson);
+            await File.WriteAllTextAsync(filePath,  encryptedDataAsJson);
             Debug.Log($"Data forced saved to {filePath}", LogContext.DataManager);
         }
         
 
-        public T Load<T>(string fileName, string expectedKeyVersion) where T : BaseData, new()
+        public async UniTask<T> LoadAsync<T>(string fileName, string expectedKeyVersion) where T : BaseData, new()
         {
             var filePath = Path.Combine(_directoryPath, fileName);
             
             if (File.Exists(filePath))
             {
-                var json = File.ReadAllText(filePath);
+                var json = await File.ReadAllTextAsync(filePath);
                 var encryptedData = JsonConvert.DeserializeObject<EncryptedData>(json);
 
 
                 if (encryptedData.KeyVersion != expectedKeyVersion)
                 {
                     Debug.Log($"Key version mismatch. Migrating data to version {expectedKeyVersion}.", LogContext.DataManager);
-                    T data = JsonConvert.DeserializeObject<T>(_encryptionService.DecryptString(encryptedData.Data));
+                    var decryptedData = await _encryptionService.DecryptString(encryptedData.Data);
+                    var dataObject = JsonConvert.DeserializeObject<T>(decryptedData);
                     Key = expectedKeyVersion;
-                    Save(fileName, data); // Re-save with new key
-                    return data;
+                    await SaveAsync(fileName, dataObject);
+                    return dataObject;
                 }
                 else
                 {
-                    var dataObject = JsonConvert.DeserializeObject<T>(_encryptionService.DecryptString(encryptedData.Data));
+                    var decryptedData = await _encryptionService.DecryptString(encryptedData.Data);
+                    var dataObject = JsonConvert.DeserializeObject<T>(decryptedData);
                     return dataObject;
                 }
             }
-            else
-            {
-                Debug.LogError($"File not found: {filePath}", LogContext.DataManager);
-                return new T();
-            }
+
+            Debug.LogError($"File not found: {filePath}", LogContext.DataManager);
+            return new T();
         }
     }
 
