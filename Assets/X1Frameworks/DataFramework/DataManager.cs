@@ -77,7 +77,8 @@ namespace X1Frameworks.DataFramework
 
         public UniTask SaveAsync<T>() where T : BaseData
         {
-            var data = _typeToDataMatch[typeof(T)];
+            BaseData data = _typeToDataMatch[typeof(T)];
+            
             var fileName = GetIdentifier(typeof(T));
             return _dataHandler.SaveAsync(fileName, data);
         }

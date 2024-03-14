@@ -22,16 +22,7 @@ namespace X1Frameworks.DataFramework
     {
         private int _gold = 0;
         private int _silver = 0;
-
-        // public int Level
-        // {
-        //     get => _level;
-        //     set
-        //     {
-        //         _level = value;
-        //         SetDirty();
-        //     }
-        // }
+        
         public int Gold
         {
             get => _gold;
@@ -48,7 +39,7 @@ namespace X1Frameworks.DataFramework
     [System.Serializable]
     public abstract class BaseData
     {
-        private bool _isDirty = false;
+        public bool IsDirty { get; private set; }
         
         private string _dataIdentifier;
         private string _dataVersion;
@@ -56,7 +47,7 @@ namespace X1Frameworks.DataFramework
 
         public void SetDirty()
         {
-            _isDirty = true;
+            IsDirty = true;
         }
     }
 }

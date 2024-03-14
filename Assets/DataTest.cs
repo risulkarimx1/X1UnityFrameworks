@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using X1Frameworks.DataFramework;
 using X1Frameworks.LogFramework;
