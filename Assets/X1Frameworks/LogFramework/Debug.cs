@@ -5,7 +5,8 @@ namespace X1Frameworks.LogFramework
 {
     public enum LogContext : byte
     {
-        UIFrame = 0
+        UIFrame = 0,
+        DataManager = 1,
     }
     public static partial class Debug
     {
