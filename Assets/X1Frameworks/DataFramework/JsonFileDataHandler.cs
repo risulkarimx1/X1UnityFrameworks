@@ -1,0 +1,87 @@
+using System.IO;
+using Newtonsoft.Json;
+using UnityEngine;
+using X1Frameworks.LogFramework;
+using Debug = X1Frameworks.LogFramework.Debug;
+
+namespace X1Frameworks.DataFramework
+{
+    public abstract class BaseDataHandler
+    {
+        protected string IV { get; set; }
+        protected string Key { get; set; }
+
+    }
+    
+    public class JsonFileDataHandler : BaseDataHandler, IDataHandler
+    {
+        private readonly IEncryptionService _encryptionService;
+        private readonly string _directoryPath;
+        public bool IsDirty { get; private set; }
+
+        public JsonFileDataHandler(IEncryptionService service)
+        {
+            IV = DataManager.IV;
+            Key = DataManager.Key;
+            
+            _directoryPath = Path.Combine(Application.persistentDataPath, DataManager.Key);
+            _encryptionService = service;
+            IsDirty = false;
+            if (!Directory.Exists(_directoryPath))
+            {
+                Directory.CreateDirectory(_directoryPath);
+            }
+        }
+
+        public void Save(string fileName, BaseData data)
+        {
+            var filePath = Path.Combine(_directoryPath, $"{fileName}");
+
+            var serializedData = JsonConvert.SerializeObject(data);
+            
+            var encryptedData = new EncryptedData
+            {
+                Data = _encryptionService.EncryptString(serializedData),
+                KeyVersion = Key
+            };
+            
+            var encryptedDataAsJson = JsonConvert.SerializeObject(encryptedData, Formatting.Indented);
+            
+            File.WriteAllText(filePath,  encryptedDataAsJson);
+            Debug.Log($"Data forced saved to {filePath}", LogContext.DataManager);
+        }
+        
+
+        public T Load<T>(string fileName, string expectedKeyVersion) where T : BaseData, new()
+        {
+            var filePath = Path.Combine(_directoryPath, fileName);
+            
+            if (File.Exists(filePath))
+            {
+                var json = File.ReadAllText(filePath);
+                var encryptedData = JsonConvert.DeserializeObject<EncryptedData>(json);
+
+
+                if (encryptedData.KeyVersion != expectedKeyVersion)
+                {
+                    Debug.Log($"Key version mismatch. Migrating data to version {expectedKeyVersion}.", LogContext.DataManager);
+                    T data = JsonConvert.DeserializeObject<T>(_encryptionService.DecryptString(encryptedData.Data));
+                    Key = expectedKeyVersion;
+                    Save(fileName, data); // Re-save with new key
+                    return data;
+                }
+                else
+                {
+                    var dataObject = JsonConvert.DeserializeObject<T>(_encryptionService.DecryptString(encryptedData.Data));
+                    return dataObject;
+                }
+            }
+            else
+            {
+                Debug.LogError($"File not found: {filePath}", LogContext.DataManager);
+                return new T();
+            }
+        }
+    }
+
+}
