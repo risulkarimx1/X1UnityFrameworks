@@ -80,8 +80,11 @@ namespace X1Frameworks.DataFramework
                 }
             }
 
-            Debug.LogError($"File not found: {filePath}", LogContext.DataManager);
-            return new T();
+            // The file does not exist, so create a new instance of T, save it, and log a message indicating creation of a new file.
+            T newData = new T();
+            await SaveAsync(fileName, newData);
+            Debug.Log($"File not found: {filePath}. Created a new file with default data.", LogContext.DataManager);
+            return newData;
         }
     }
 

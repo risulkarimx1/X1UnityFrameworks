@@ -17,10 +17,15 @@ public class DataTest : MonoBehaviour
         var playerData =  data.Get<PlayerData>();
         playerData.Level++;
         Debug.Log(playerData.Level.ToString(), LogContext.DataManager);
+        var currencyData = data.Get<CurrencyData>();
+        currencyData.Gold += 10;
+        currencyData.Silver += 15;
+        Debug.Log($"{currencyData.Gold}", LogContext.DataManager);
+        Debug.Log($"{currencyData.Silver}", LogContext.DataManager);
     }
 
     public async void SaveLevel()
     {
-        await data.SaveAsync<PlayerData>();
+        await data.SaveAllAsync();
     }
 }

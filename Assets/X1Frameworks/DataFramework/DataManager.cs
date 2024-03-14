@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 
 namespace X1Frameworks.DataFramework
@@ -19,39 +18,54 @@ namespace X1Frameworks.DataFramework
 
         private Dictionary<Type, BaseData> _typeToDataMatch = new();
         private Dictionary<Type, string> _typeToFileNameMatch = new();
+        private List<Type> _derivedTypesCache = null;
+        private MethodInfo _initializeDataTypeMethodCache = null;
 
         public DataManager()
         {
             EnsureInitializedAsync().Forget();
         }
         
+        private void CacheReflectionResults()
+        {
+            if (_derivedTypesCache == null)
+            {
+                var baseDataType = typeof(BaseData);
+                _derivedTypesCache = Assembly.GetAssembly(baseDataType)
+                    .GetTypes()
+                    .Where(t => t.IsClass && !t.IsAbstract && t.IsSubclassOf(baseDataType))
+                    .ToList();
+            }
+
+            if (_initializeDataTypeMethodCache == null)
+            {
+                _initializeDataTypeMethodCache = typeof(DataManager).GetMethod(nameof(InitializeDataType), BindingFlags.NonPublic | BindingFlags.Instance);
+            }
+        }
+        
         private async UniTask EnsureInitializedAsync()
         {
             if(_isInitialized) return;
+            
+            CacheReflectionResults();
             
             encryptionService = new AesEncryptionService();
             _dataHandler = new JsonFileDataHandler(encryptionService);
             
             _typeToDataMatch.Clear();
             
-            var baseDataType = typeof(BaseData);
-            var derivedTypes = Assembly.GetAssembly(baseDataType)
-                .GetTypes()
-                .Where(t => t.IsClass && !t.IsAbstract && t.IsSubclassOf(baseDataType));
-            
-            var method = typeof(DataManager).GetMethod(nameof(InitializeDataType), BindingFlags.NonPublic | BindingFlags.Instance);
-            foreach (var type in derivedTypes)
+            await UniTask.WhenAll(_derivedTypesCache.Select(async type =>
             {
-                var generic = method.MakeGenericMethod(type);
-                await (UniTask)generic.Invoke(this, null);
-            }
+                var genericMethod = _initializeDataTypeMethodCache.MakeGenericMethod(type);
+                await (UniTask)genericMethod.Invoke(this, null);
+            }));
             
             _isInitialized = true;
         }
 
         private UniTask<T> LoadAsync<T>() where T : BaseData, new()
         {
-            var fileName = GetIdentifier<T>();
+            var fileName = GetIdentifier(typeof(T));
             return _dataHandler.LoadAsync<T>(fileName, Key);
         }
 
@@ -64,20 +78,29 @@ namespace X1Frameworks.DataFramework
         public UniTask SaveAsync<T>() where T : BaseData
         {
             var data = _typeToDataMatch[typeof(T)];
-            var fileName = GetIdentifier<T>();
+            var fileName = GetIdentifier(typeof(T));
             return _dataHandler.SaveAsync(fileName, data);
         }
         
-        private string GetIdentifier<T>() where T : BaseData
+        public async UniTask SaveAllAsync()
         {
-            if (_typeToFileNameMatch.ContainsKey(typeof(T))) 
-                return _typeToFileNameMatch[typeof(T)];
+            await UniTask.WhenAll(_typeToDataMatch.Select(entry =>
+            {
+                var fileName = GetIdentifier(entry.Key);
+                return _dataHandler.SaveAsync(fileName, entry.Value);
+            }));
+        }
+        
+        private string GetIdentifier(Type t)
+        {
+            if (_typeToFileNameMatch.ContainsKey(t)) 
+                return _typeToFileNameMatch[t];
             
-            var attribute  = typeof(T).GetCustomAttribute<DataIdentifierAttribute>()?.Identifier ?? typeof(T).Name;
+            var attribute  = t.GetCustomAttribute<DataIdentifierAttribute>()?.Identifier ?? t.Name;
             var dataIdentifier = $"{attribute}_v{Key}.json";
-            _typeToFileNameMatch.Add(typeof(T), dataIdentifier);
+            _typeToFileNameMatch.Add(t, dataIdentifier);
 
-            return _typeToFileNameMatch[typeof(T)];
+            return _typeToFileNameMatch[t];
         }
         
         public T Get<T>() where T : BaseData

@@ -17,6 +17,34 @@ namespace X1Frameworks.DataFramework
         }
     }
     
+    [DataIdentifier("currency_data")]
+    public class CurrencyData: BaseData
+    {
+        private int _gold = 0;
+        private int _silver = 0;
+
+        // public int Level
+        // {
+        //     get => _level;
+        //     set
+        //     {
+        //         _level = value;
+        //         SetDirty();
+        //     }
+        // }
+        public int Gold
+        {
+            get => _gold;
+            set => _gold = value;
+        }
+
+        public int Silver
+        {
+            get => _silver;
+            set => _silver = value;
+        }
+    }
+    
     [System.Serializable]
     public abstract class BaseData
     {
